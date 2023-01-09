@@ -27,7 +27,7 @@ AFRAME.registerComponent('game',{
                                 timer1.setAttribute('text',{
                                     value:mins+':'+sec
                                 });
-                                duration+=-1
+                                duration-=-1
         
                         }
         
