@@ -3,81 +3,78 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 494,
+      "count": 220,
       "max": [
-        2.009580373764038,
-        0.5920517444610596,
-        2.1356420516967773
+        0.3999176621437073,
+        1.1999175548553467,
+        0.09456098824739456
       ],
       "min": [
-        -2.0142300128936768,
-        -0.3187035918235779,
-        -1.8969228267669678
+        -0.3999175429344177,
+        0.40008246898651123,
+        -0.09456111490726471
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 5928,
+      "byteOffset": 2640,
       "componentType": 5126,
-      "count": 494,
+      "count": 220,
       "max": [
-        0.9985294938087463,
-        0.9999997615814209,
-        0.989610493183136
+        0.9997941255569458,
+        0.9997941255569458,
+        0.9380837678909302
       ],
       "min": [
-        -0.9995768070220947,
-        -0.9999998807907104,
-        -0.9988772869110107
+        -0.9997941255569458,
+        -0.9997941255569458,
+        -0.9380837678909302
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
+      "bufferView": 1,
       "componentType": 5126,
-      "count": 494,
+      "count": 220,
       "max": [
-        0.8920031189918518,
-        0.9980593323707581,
-        0.9999628067016602,
-        1.0
+        0.99139803647995,
+        0.9999005198478699
       ],
       "min": [
-        -0.5520452260971069,
-        -0.9996602535247803,
-        -0.9996168613433838,
-        1.0
+        9.955406858352944e-05,
+        9.955406858352944e-05
       ],
-      "type": "VEC4"
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
+      "byteOffset": 1760,
       "componentType": 5126,
-      "count": 494,
+      "count": 220,
       "max": [
-        0.9980400204658508,
-        0.8191400170326233
+        0.99139803647995,
+        0.9999005198478699
       ],
       "min": [
-        0.0019499999471008778,
-        0.0019499999471008778
+        9.955406858352944e-05,
+        9.955406858352944e-05
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 2388,
+      "count": 1308,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "BillieBones (https://sketchfab.com/BillieBones)",
+      "author": "BarracudaByte (https://sketchfab.com/barracudabyte)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/low-poly-gold-coin-7a40d686492545d1a6f6bd0c487f1cb9",
-      "title": "Low-Poly Gold Coin"
+      "source": "https://sketchfab.com/3d-models/stylized-coin-8cd6f95c44994ed5944a42892d0ffc10",
+      "title": "Stylized Coin"
     },
     "generator": "Sketchfab-12.68.0",
     "version": "2.0"
@@ -85,75 +82,66 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 9552,
+      "byteLength": 5232,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 3952,
-      "byteOffset": 9552,
+      "byteLength": 3520,
+      "byteOffset": 5232,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 11856,
-      "byteOffset": 13504,
+      "byteLength": 5280,
+      "byteOffset": 8752,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 7904,
-      "byteOffset": 25360,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 33264,
+      "byteLength": 14032,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
   "images": [
     {
-      "uri": "textures/defaultMat_baseColor.png"
-    },
-    {
-      "uri": "textures/defaultMat_normal.png"
+      "uri": "textures/Material_baseColor.jpeg"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "defaultMat",
-      "normalTexture": {
-        "index": 1
+      "extensions": {
+        "KHR_materials_unlit": {}
       },
+      "name": "Material",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
-        "metallicFactor": 0.8614710366,
-        "roughnessFactor": 0.47999237800000005
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
-      "name": "Object_0",
+      "name": "Coin_Material_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
           },
           "indices": 4,
           "material": 0,
@@ -191,11 +179,59 @@
       "children": [
         2
       ],
-      "name": "coinlowpoly.OBJ.cleaner.materialmerger.gles"
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "6a515c5653f24d669530fc722bd590f2.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        99.9999999999999,
+        4.371138828673792e-06,
+        0.0,
+        0.0,
+        -4.371138828673792e-06,
+        99.9999999999999,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Coin"
     },
     {
       "mesh": 0,
-      "name": "Object_2"
+      "name": "Coin_Material_0"
     }
   ],
   "samplers": [
@@ -219,10 +255,6 @@
     {
       "sampler": 0,
       "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
     }
   ]
 }
